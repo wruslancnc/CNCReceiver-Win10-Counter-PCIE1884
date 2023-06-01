@@ -1,4 +1,4 @@
-# CNCReceiver-Win10-Counter-PCIE-1884
+# Win10-CNCReceiver-Counter-PCIE-1884
 
 Desktop computer counter running Windows 10 receiving count of signals driving the CNC milling machine using the Advantech PCIE-1884 Card.
 
