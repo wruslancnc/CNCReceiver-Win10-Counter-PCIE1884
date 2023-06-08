@@ -1,0 +1,210 @@
+USER@GIGABlueDesktop-win10 ~
+$ date
+Tue May 30 14:28:45 +08 2023
+
+USER@GIGABlueDesktop-win10 ~
+$ uname -a
+CYGWIN_NT-10.0-19045 GIGABlueDesktop-win10 3.4.6-1.x86_64 2023-02-14 13:23 UTC x86_64 Cygwin
+
+USER@GIGABlueDesktop-win10 ~
+$ which nano
+/usr/bin/nano
+
+USER@GIGABlueDesktop-win10 ~
+$ which evince
+/usr/bin/evince
+
+USER@GIGABlueDesktop-win10 ~
+$ which wget
+/usr/bin/wget
+
+USER@GIGABlueDesktop-win10 ~
+$ which git
+/usr/bin/git
+
+USER@GIGABlueDesktop-win10 ~
+$ which ftp
+/cygdrive/c/WINDOWS/system32/ftp
+
+USER@GIGABlueDesktop-win10 ~
+$ which gcc
+/usr/bin/gcc
+
+USER@GIGABlueDesktop-win10 ~
+$ which g++
+/usr/bin/g++
+
+USER@GIGABlueDesktop-win10 ~
+$ which java
+/cygdrive/c/Program Files/Common Files/Oracle/Java/javapath/java
+
+USER@GIGABlueDesktop-win10 ~
+$ which javac
+/cygdrive/c/Program Files/Common Files/Oracle/Java/javapath/javac
+
+USER@GIGABlueDesktop-win10 ~
+$ which perl
+/usr/bin/perl
+
+USER@GIGABlueDesktop-win10 ~
+$ which python
+/usr/bin/python
+
+USER@GIGABlueDesktop-win10 ~
+$ which php
+/cygdrive/c/php8.2.6/php
+
+USER@GIGABlueDesktop-win10 ~
+$ which ssh
+/usr/bin/ssh
+
+USER@GIGABlueDesktop-win10 ~
+$ nano --version
+ GNU nano, version 4.3
+ (C) 1999-2011, 2013-2019 Free Software Foundation, Inc.
+ (C) 2014-2019 the contributors to nano
+ Email: nano@nano-editor.org    Web: https://nano-editor.org/
+ Compiled options: --enable-utf8
+
+USER@GIGABlueDesktop-win10 ~
+$ evince --version
+GNOME Document Viewer 3.26.0
+
+USER@GIGABlueDesktop-win10 ~
+$ wget --version
+GNU Wget 1.21.4 built on cygwin.
+
++cares +digest +gpgme +https +ipv6 +iri +large-file +metalink +nls
++ntlm +opie +psl +ssl/gnutls
+
+Wgetrc:
+    /etc/wgetrc (system)
+Locale:
+    /usr/share/locale
+Compile:
+    gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC="/etc/wgetrc"
+    -DLOCALEDIR="/usr/share/locale" -I.
+    -I/home/BWI/src/cygwin/wget/wget-1.21.4-1.x86_64/src/wget-1.21.4/src
+    -I../lib
+    -I/home/BWI/src/cygwin/wget/wget-1.21.4-1.x86_64/src/wget-1.21.4/lib
+    -I/usr/include/uuid -DNDEBUG -ggdb -O2 -pipe -Wall
+    -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2
+    -fstack-protector-strong --param=ssp-buffer-size=4
+    -fdebug-prefix-map=/home/BWI/src/cygwin/wget/wget-1.21.4-1.x86_64/build=/usr/src/debug/wget-1.21.4-1
+    -fdebug-prefix-map=/home/BWI/src/cygwin/wget/wget-1.21.4-1.x86_64/src/wget-1.21.4=/usr/src/debug/wget-1.21.4-1
+Link:
+    gcc -I/usr/include/uuid -DNDEBUG -ggdb -O2 -pipe -Wall
+    -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2
+    -fstack-protector-strong --param=ssp-buffer-size=4
+    -fdebug-prefix-map=/home/BWI/src/cygwin/wget/wget-1.21.4-1.x86_64/build=/usr/src/debug/wget-1.21.4-1
+    -fdebug-prefix-map=/home/BWI/src/cygwin/wget/wget-1.21.4-1.x86_64/src/wget-1.21.4=/usr/src/debug/wget-1.21.4-1
+    -lmetalink -lcares -lpcre2-8 -luuid -lidn2 -lnettle -lgnutls -lz
+    -lpsl -lgpgme ../lib/libgnu.a -liconv -lintl -lunistring
+
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later
+<http://www.gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Originally written by Hrvoje Niksic <hniksic@xemacs.org>.
+Please send bug reports and questions to <bug-wget@gnu.org>.
+
+USER@GIGABlueDesktop-win10 ~
+$ git --version
+git version 2.39.0
+
+USER@GIGABlueDesktop-win10 ~
+$ ftp --version
+
+Transfers files to and from a computer running an FTP server service
+(sometimes called a daemon). Ftp can be used interactively.
+
+FTP [-v] [-d] [-i] [-n] [-g] [-s:filename] [-a] [-A] [-x:sendbuffer] [-r:recvbuffer] [-b:asyncbuffers] [-w:windowsize] [host]
+
+  -v              Suppresses display of remote server responses.
+  -n              Suppresses auto-login upon initial connection.
+  -i              Turns off interactive prompting during multiple file
+                  transfers.
+  -d              Enables debugging.
+  -g              Disables filename globbing (see GLOB command).
+  -s:filename     Specifies a text file containing FTP commands; the
+                  commands will automatically run after FTP starts.
+  -a              Use any local interface when binding data connection.
+  -A              login as anonymous.
+  -x:send sockbuf Overrides the default SO_SNDBUF size of 8192.
+  -r:recv sockbuf Overrides the default SO_RCVBUF size of 8192.
+  -b:async count  Overrides the default async count of 3
+  -w:windowsize   Overrides the default transfer buffer size of 65535.
+  host            Specifies the host name or IP address of the remote
+                  host to connect to.
+
+Notes:
+  - mget and mput commands take y/n/q for yes/no/quit.
+  - Use Control-C to abort commands.
+
+USER@GIGABlueDesktop-win10 ~
+$ gcc --version
+gcc (GCC) 11.3.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+USER@GIGABlueDesktop-win10 ~
+$ g++ --version
+g++ (GCC) 11.3.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+USER@GIGABlueDesktop-win10 ~
+$ java -version
+java version "17.0.1" 2021-10-19 LTS
+Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
+
+USER@GIGABlueDesktop-win10 ~
+$ javac --version
+javac 17.0.1
+
+USER@GIGABlueDesktop-win10 ~
+$ python --version
+Python 3.9.16
+
+USER@GIGABlueDesktop-win10 ~
+$ perl --version
+
+This is perl 5, version 36, subversion 1 (v5.36.1) built for x86_64-cygwin-threads-multi
+(with 6 registered patches, see perl -V for more detail)
+
+Copyright 1987-2023, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at https://www.perl.org/, the Perl Home Page.
+
+
+USER@GIGABlueDesktop-win10 ~
+$ php --version
+PHP 8.2.6 (cli) (built: May  9 2023 16:02:16) (ZTS Visual C++ 2019 x64)
+Copyright (c) The PHP Group
+Zend Engine v4.2.6, Copyright (c) Zend Technologies
+
+USER@GIGABlueDesktop-win10 ~
+$ ssh --version
+ssh: unknown option -- -
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+
+USER@GIGABlueDesktop-win10 ~
+$
